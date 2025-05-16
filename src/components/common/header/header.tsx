@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Logo from "./logo";
 import NavMenu from "./nav-menu";
 import SearchBar from "./search-bar";

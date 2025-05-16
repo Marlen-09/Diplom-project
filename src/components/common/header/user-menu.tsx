@@ -14,7 +14,7 @@ export default function UserMenu() {
         onClick={() => setIsOpen(!isOpen)}
         className="p-2"
       >
-        <User size={22} />
+        <User size={22} className="text-gray-500"/>
       </button>
       
       {isOpen && (

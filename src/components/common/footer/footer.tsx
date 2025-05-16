@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Shop info */}
           <div>
-            <h3 className="text-lg font-bold mb-4">ShopNext</h3>
+            <h3 className="text-lg font-bold mb-4 text-black">ShopNext</h3>
             <p className="text-gray-600 mb-4">
               Your destination for quality products with fast shipping and exceptional customer service.
             </p>
@@ -18,7 +18,7 @@ export default function Footer() {
           
           {/* Quick links */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Shop</h3>
+            <h3 className="text-lg font-bold mb-4 text-black">Shop</h3>
             <ul className="space-y-2">
               <li><Link href="/products" className="text-gray-600 hover:text-gray-900">All Products</Link></li>
               <li><Link href="/categories" className="text-gray-600 hover:text-gray-900">Categories</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
           
           {/* Customer service */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Customer Service</h3>
+            <h3 className="text-lg font-bold mb-4 text-black">Customer Service</h3>
             <ul className="space-y-2">
               <li><Link href="/contact" className="text-gray-600 hover:text-gray-900">Contact Us</Link></li>
               <li><Link href="/faq" className="text-gray-600 hover:text-gray-900">FAQ</Link></li>
@@ -40,7 +40,7 @@ export default function Footer() {
           
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Stay Updated</h3>
+            <h3 className="text-lg font-bold mb-4 text-black" >Stay Updated</h3>
             <p className="text-gray-600 mb-4">
               Subscribe to our newsletter for the latest products and exclusive offers.
             </p>

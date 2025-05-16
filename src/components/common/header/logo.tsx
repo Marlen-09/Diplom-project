@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Logo() {
   return (
     <Link href="/" className="flex items-center mr-6">
-      <span className="text-xl font-bold">ShopNext</span>
+      <span className="text-xl text-black font-bold">ShopNext</span>
     </Link>
   );
 }

@@ -5,10 +5,10 @@ export default function HeroBanner() {
     <div className="relative bg-gray-100 h-[60vh] min-h-[400px] flex items-center">
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
             New Season Arrivals
           </h1>
-          <p className="text-lg mb-8">
+          <p className="text-lg mb-8 text-gray-600">
             Discover the latest trends and styles for the new season with our exclusive collection.
           </p>
           <div className="flex space-x-4">
