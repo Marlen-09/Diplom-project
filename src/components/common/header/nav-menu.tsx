@@ -4,11 +4,14 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 // Nav items array - later move this to navigation config
+
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Categories", href: "/categories" },
   { label: "Products", href: "/products" },
   { label: "Deals", href: "/products?deal=true" },
+  // Временная ссылка для тестирования
+  { label: "Checkout Test", href: "/checkout" },
 ];
 
 export default function NavMenu() {
