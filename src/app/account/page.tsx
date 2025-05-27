@@ -92,7 +92,7 @@ export default function AccountPage() {
         
         <div className="lg:col-span-3">
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-300">Welcome back, {user.firstName}!</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Welcome back, {user.firstName}!</h1>
             <p className="text-gray-600 mt-2">Manage your account and track your orders</p>
           </div>
 
